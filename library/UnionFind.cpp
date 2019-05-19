@@ -8,7 +8,7 @@ private:
 	std::vector<long long> rank;
 
 public:
-	void init(long long n) {
+	UnionFind(long long n) {
 		par = std::vector<long long>(n);
 		rank = std::vector<long long>(n);
 		for (long long i = 0; i < n; i++) {
